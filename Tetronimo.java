@@ -1,4 +1,4 @@
-public class Tetromino {
+public class Tetronimo {
     public String style;
     // Styles are:
     // I Piece
