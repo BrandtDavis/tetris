@@ -16,6 +16,10 @@ public class Board {
         };
     }
 
+    public void addNewTetronimoToBoard(Tetronimo tetronimo) {
+
+    }
+
     public void printBoard() {
         for (int[] boardState1 : boardState) {
             for (int boardState2 : boardState1) {
