@@ -1,8 +1,21 @@
 public class Board {
     protected int[][] boardState;
     
+    /**
+     * Initialize a new 10 x 20 board for tetris game
+     */
     public void initializeBoard() {
         this.boardState = new int[][] {
+            {0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+            {0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+            {0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+            {0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+            {0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+            {0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+            {0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+            {0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+            {0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+            {0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -16,7 +29,7 @@ public class Board {
         };
     }
 
-    public void addNewTetronimoToBoard(Tetronimo tetronimo) {
+    public void addNewTetronimoToBoard(BaseTetronimo tetronimo) {
 
     }
 
