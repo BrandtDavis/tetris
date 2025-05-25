@@ -1,5 +1,3 @@
-public class Tetronimo {
-    public String style;
     // Styles are:
     // I Piece
     // O Piece
@@ -8,4 +6,12 @@ public class Tetronimo {
     // Z Piece
     // L Piece
     // S Piece
+    
+public class Tetronimo {
+    public String shapeName;
+    public int[][] shape;
+
+    public void rotateShape() {
+
+    }
 }
