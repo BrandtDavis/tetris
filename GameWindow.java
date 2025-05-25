@@ -4,13 +4,13 @@ import java.awt.event.WindowEvent;
 import javax.swing.*;
 import javax.swing.border.Border;
 
-public class GameFrame {
+public class GameWindow {
 
-    public GameFrame() {
+    public GameWindow() {
 
     }
 
-    public JFrame openGameFrame() {
+    public JFrame startGameWindow() {
         // Declaring a Frame and Label
         JFrame frame = new JFrame("Basic Program");
 
