@@ -3,7 +3,7 @@ import java.util.Random;
 
 public class TetrominoFactory {
     private final Random random;
-    private List<TetronimoType> tetronimoBag;
+    private List<TetrominoType> tetronimoBag;
 
     public TetrominoFactory() {
         this.random = new Random();
