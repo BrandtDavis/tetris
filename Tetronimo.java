@@ -7,7 +7,7 @@
     // L Piece
     // S Piece
 
-public class BaseTetronimo {
+public class Tetronimo {
     public String shapeName;
     public String color;
     public int[][] shape;
