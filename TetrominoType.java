@@ -14,12 +14,12 @@ public enum TetrominoType {
 
     // Fix this
     J(new int[][][] {
-        {{0, 0, 1}, {0, 0, 1}, {0, 0, 1}}, // 0 degree rotation
-        {{0, 0, 0}, {0, 0, 0}, {1, 1, 1}}, // 90 degree rotation
-        {{0, 0, 1}, {0, 0, 1}, {0, 0, 1}}, // 180 degree rotation
-        {{1, 0, 0}, {1, 1, 1}, {0, 0, 0}}, // 270 degree rotation
-    }, Color.YELLOW, 4, 0);
-    // J, 
+        {{1, 0, 0}, {1, 1, 1}, {0, 0, 0}}, // 0 degree rotation
+        {{0, 1, 1}, {0, 1, 0}, {0, 1, 0}}, // 90 degree rotation
+        {{0, 0, 0}, {1, 1, 1}, {0, 0, 1}}, // 180 degree rotation
+        {{0, 1, 0}, {0, 1, 0}, {0, 0, 1}}, // 270 degree rotation
+    }, Color.YELLOW, 3, 0);
+
     // T, 
     // Z, 
     // L, 
